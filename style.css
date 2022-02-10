@@ -1,0 +1,154 @@
+html,
+body {
+	background-image: url(img/tlo2.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 !important;
+	font-family: "Lato", sans-serif;
+	scroll-behavior: smooth;
+}
+.baner {
+	background-color: #21689e;
+	color: white;
+	width: 100%;
+}
+.bar {
+	background-color: #ffffff;
+	width: 100%;
+}
+.logo {
+	height: 70px;
+}
+.witaj {
+	font-size: 230%;
+	font-family: "Dancing Script", cursive;
+}
+.witaj-sm {
+	font-size: 160%;
+	font-family: "Dancing Script", cursive;
+}
+button {
+	border: 0px !important;
+}
+.shadow {
+	box-shadow: 0px 10px 30px -20px black;
+}
+.aktive {
+	border-bottom: 3px solid #21689e;
+}
+.icon {
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+}
+.kontakt {
+	font-size: 130%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.kontakt a {
+	color: white !important;
+}
+.tlo {
+	background-color: #ffffff;
+}
+.naglowek,
+.naglowek h1 {
+	text-align: center;
+	color: rgb(172, 172, 172);
+	font-weight: bold;
+	font-size: 150%;
+	letter-spacing: 4px;
+}
+.pod {
+	height: 5px;
+	width: 40%;
+	background-color: rgb(199, 199, 199);
+	border: 0px;
+	border-radius: 100px;
+}
+.artykul {
+	box-shadow: 20px -10px 50px -40px rgba(0, 0, 0, 0.616);
+	border-radius: 50px 50px 0 0;
+	padding-top: 30px;
+	padding: 15px;
+}
+.tytul h2 {
+	font-size: 180%;
+	color: #0b3554;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 15px;
+}
+.tresc {
+	font-size: 105%;
+	color: rgb(85, 85, 85);
+	padding-top: 20px;
+	text-align: justify;
+}
+.tresc-table {
+	font-size: 100%;
+	color: rgb(85, 85, 85);
+	padding-top: 30px;
+	text-align: center;
+}
+.podglad {
+	border-radius: 20px;
+	width: 100%;
+}
+.podglad-SG {
+	border-radius: 20px;
+	width: 150px;
+	max-height: 150px;
+}
+a:hover {
+	text-decoration: none !important;
+}
+.btn-white {
+	font-size: 70%;
+	font-weight: bold;
+	color: #21689e;
+	background-color: #ffffff;
+}
+.btn-white:hover {
+	font-size: 70%;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #21689e;
+}
+.pointer {
+	cursor: pointer;
+}
+.pointer:hover {
+	background-color: black;
+}
+.wazne {
+	font-size: 120%;
+	color: rgb(190, 0, 0);
+}
+.ul {
+	list-style-image: url(ikony/anchor1.png);
+	list-style-position: inherit;
+}
+.btn-galery {
+	background-color: #ffffff;
+}
+.foto:hover {
+	filter: brightness(60%);
+}
+td,
+th {
+	padding: 5px;
+}
+td,
+th {
+	margin: 0 !important;
+	border: 1px solid #e0e0e0;
+}
+.btn-arrow {
+	color: #0b3554;
+	font-size: 100%;
+	background-color: #ffffff;
+	padding: 5px !important;
+}

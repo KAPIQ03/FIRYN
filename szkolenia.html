@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-U-Compatible" content="IE=edge">
+    <!-- elementy potrzezbne do bootstrapa -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="glowna/logo.PNG">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&display=swap"
+        rel="stylesheet">
+    <title>Szkolenia</title>
+</head>
+
+
+<body>
+    <heder>
+        <a class="text-white d-none d-md-block" href="index.html">
+            <div class="container-fluid baner">
+                <div class="container">
+                    <img src="glowna/logo.PNG" class="float-left logo mt-3 mb-3">
+                    <h1 class="d-md-inline-flex witaj d-none float-right mt-4 mb-4">Agroturystyczna Stanica
+                        Żeglarska w
+                        Osieku</h1>
+                    <div style="clear:both"></div>
+                </div>
+            </div>
+        </a>
+        <a class="d-block d-md-none" href="index.html">
+            <div class=" text-white container-fluid baner">
+                <div class="container justify-content-center text-center">
+                    <h1 class="d-md-none d-inline-flex witaj-sm mt-4 mb-4">
+                        Agroturystyczna Stanica
+                        Żeglarska w
+                        Osieku</h1>
+                </div>
+            </div>
+        </a>
+        <div class="container-fluid bg-white shadow sticky-top">
+            <nav class="navbar navbar-light bg-white navbar-expand-md container">
+                <button class="navbar-toggler btn btn-light" type="button" data-toggle="collapse"
+                    data-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-list-ul" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                    </svg>
+
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarText">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mr-3">
+                            <a class="nav-link " aria-current="page" href="index.html">Aktualności</a>
+                        </li>
+                        <li class="nav-item dropdown mr-3">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#"
+                                aria-expanded="false">Oferty</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="oferta.html">OFERTY</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="oferta.html#pokoje">Pokoje</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#atrakcje">Atrakcje</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#obiady">Domowe obiady</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#obozy">Obozy żeglarskie</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#sprzet">Sprzęt</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#rejsy">Rejsy</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#zimowanie">Zimowanie sprzętu</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mr-3">
+                            <a class="nav-link dropdown-toggle aktive" data-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Szkolenia</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="szkolenia.html">SZKOLENIA</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="szkolenia.html#zeglarz">Żeglarskie</a></li>
+                                <li><a class="dropdown-item" href="szkolenia.html#motoro">Motorowodne</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mr-3">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Obozy</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="obozy.html">OBOZY</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item " href="zapisz.html">Zapisz Dziecko</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link"
+                                href="https://www.facebook.com/Uczniowski-Klub-Sportowy-OPTI-OSIEK-104354480945014"
+                                target="_blanc">Opti Osiek</a>
+                        </li>
+                        <li class="nav-item mr-3 ">
+                            <a class="nav-link" href="kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </heder>
+
+    <section>
+        <div class=" container tlo">
+            <div class="pt-5">
+                <span class="naglowek ">
+                    <h1>SZKOLENIA</h1>
+                    <div id="zeglarz"></div>
+                </span>
+            </div>
+            <hr class="pod">
+
+
+            <!--Żeglarz jachtowy -->
+            <div class="artykul">
+                <div class="tytul ml-sm-4">
+                    <h2>Żeglarz Jachtowy</h2>
+                </div>
+                <div class="row">
+                    <div class="tresc-table d-inline-block col-12 col-lg-9 w-100">
+                        <table>
+                            <tr>
+                                <th>
+                                    FORMA SZKOLENIA
+                                </th>
+                                <th>
+                                    TERMIN
+                                </th>
+                                <th>
+                                    CENA
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>Weekendowe - soboty, niedziele i długie weekendy.</td>
+                                <td>Pierwsze spotkanie 15 maja.</td>
+                                <td>760zł</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Stacjonarne - obóz żeglarski- zakwaterowanie w
+                                    agroturystyce. Dwa turnusy.</a>
+                                </td>
+                                <td>T1: 26 czerwca - 9 lipca
+
+                                    T2: 11 lipca - 23 lipca</td>
+                                <td>1260zł </td>
+                            </tr>
+                            <tr>
+                                <td>Dochodzące w ustalanym indywidualnie czasie.</td>
+                                <td>Cały wrzesień.
+                                    Zapisy telefonicznie do 1 września.</td>
+                                <td>760zł</td>
+                            </tr>
+                            <tr>
+                                <td>Rejs stażowo szkoleniowy dla przyjaciół,
+
+                                    żeglarzy jachtowych na Bałtyk Południowy.</td>
+                                <td> 7 sierpnia do 14 sierpnia</td>
+                                <td>1600zł</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="d-lg-inline-block d-none col-3 align-top mt-4">
+                        <img src="img/szkolenia/ZEGLARZ JACHTOWY PATENT.jpeg" class="podglad shadow">
+                    </div>
+
+                </div>
+                <div id="motoro"></div>
+            </div>
+
+            <!-- Motorowodny -->
+            <div class="artykul">
+                <div class="tytul ml-sm-4">
+                    <h2>Sternik Motorowodny</h2>
+                </div>
+                <div class="row">
+                    <div class="tresc-table d-inline-block col-12 col-lg-9 w-100">
+                        <table>
+                            <tr>
+                                <th>
+                                    FORMA SZKOLENIA
+                                </th>
+                                <th>
+                                    CENA
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>Weekendowe - soboty, niedziele i długie weekendy</td>
+                                <td>450zł</td>
+                            </tr>
+                            <tr>
+                                <td>Stacjonarne - zakwaterowanie i wyżywienie w agroturystyce</td>
+                                <td>900zł </td>
+                            </tr>
+                            <tr>
+                                <td>Dochodzące w ustalanym indywidualnie czasie</td>
+                                <td>760zł</td>
+                            </tr>
+                            <tr>
+                                <td>Dla żeglarzy jachtowych, którzy zdobyli uprawnienia w Agroturystyce Żeglarskiej
+                                    FIRYN lub UKS OPTI OSIEK</td>
+                                <td>250zł</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="d-lg-inline-block d-none col-3 align-top mt-4">
+                        <img src="img/szkolenia/STERNIK MOTOROWODNY PATENT.jpeg" class="podglad shadow">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Inne -->
+            <div class="artykul">
+                <div class="tytul ml-sm-4">
+                    <h2>Inne szkolenia</h2>
+                </div>
+                <div class="tresc col-12 col-md-10 offset-md-1">
+                    <p>
+                    <ul class="ul">
+
+                        <li>Doszkalanie w zakresie manewrowania jachtem pod żaglami (po sprawdzeniu
+                            umiejętności i
+                            ustaleniu grafiku zajęć) <b>50zł/h/os</b></li>
+                        <li> Szkolenie - podstawy użytkowania, obsługi spalinowego silnika przyczepnego,
+                            manewrowania w
+                            zakresie tzw "bezpatencia"<b> 100zł/h</b></li>
+                        <li> Nauka wiosłowania, czyli pływania kajakiem lub łódką wiosłową <b>35zł/h</b></li>
+
+                        <li> Egzaminy państwowe na w/w patenty wg stawek Ministerstwa. W 2021 roku jesto to
+                            odpowiednio
+                            <b>250zł</b>, ze zniżką <b>125zł</b> dla uczniów i stundentów.
+                        </li>
+                    </ul>
+
+                    <b>Szkolenie na desce windsurfingowej</b>
+                    <ul class="ul">
+                        <li>1 godzina szkolenia - trener - <b>50zł</b></li>
+                        <li> sprzęt do szkolenia 1 godzina <b>50zł</b></li>
+                        <li> w szkoleniu mogą uczestniczyć na raz maximum 2 osoby, zalecane 1 osoba na 1 trenera
+                        </li>
+                        <li> do czasu szkolenia wlicza się czas montażu sprzętu oraz jego rozbrojenie</li>
+                        <li> do kursanta należy doniesienie sprzętu nad jezioro oraz po szkoleniu zniesienie z
+                            jeziora do magazynu- 25 kroków</li>
+                    </ul>
+                    <center><b class="wazne"> Szkolenia należy zarezerwować co najmniej 3 dni wcześniej
+                            telefonicznie pod numerem 505
+                            787 975 trener pani WIOLETTA.</b></center><br>
+
+                    <b>W szkoleniach na żeglarza jachtowego i sternika motorowodnego można uzyskać zniżki:</b>
+                    <ul class="ul">
+                        <li>za wcześniej zdobyte uprawnienia w naszej stanicy <b>100zł,</b></li>
+                        <li> za zameldowanie w gminie Osiek <b>100zł,</b></li>
+                        <li> dla harcery ZHP z Hufca Starogard Gdański<b> 100zł.</b></li>
+                        <li> Zniżki kumulują się maksymalnie do <b>100zł</b>.</li>
+                    </ul>
+                    </p>
+
+                </div>
+
+            </div>
+
+    </section>
+
+    <footer>
+        <div class="container-fluid baner">
+            <div class="container baner">
+
+                <span id="kontakt" class="d-md-inline-block d-none kontakt">tel: <b>513 418 709</b>
+
+                    e-mail: afiryn@wp.pl
+
+                </span>
+                <div class="d-inline-block  float-right">
+                    <a href="https://www.facebook.com/Agroturystyczna-Stanica-%C5%BBeglarska-LAJ-Firyn-w-Osieku-265617240212769"
+                        target="_blanc">
+
+                        <img src="ikony/facebook.png" class="icon">
+
+                    </a>
+
+                    <a href="https://www.instagram.com/stanica.firyn/" target="_blanc">
+
+                        <img src="ikony/instagram.png" class="icon">
+
+                    </a>
+
+                    <a href="https://www.facebook.com/Uczniowski-Klub-Sportowy-OPTI-OSIEK-104354480945014"
+                        target="_blanc">
+
+                        <img src="ikony/Opti.png" class="icon">
+
+                    </a>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

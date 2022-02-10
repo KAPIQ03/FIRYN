@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-U-Compatible" content="IE=edge">
+    <!-- elementy potrzezbne do bootstrapa -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="glowna/logo.PNG">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&display=swap"
+        rel="stylesheet">
+    <title>Obozy Szkoleniowe</title>
+</head>
+
+
+<body>
+    <heder>
+        <a class="text-white d-none d-md-block" href="index.html">
+            <div class="container-fluid baner">
+                <div class="container">
+                    <img src="glowna/logo.PNG" class="float-left logo mt-3 mb-3">
+                    <h1 class="d-md-inline-flex witaj d-none float-right mt-4 mb-4">Agroturystyczna Stanica
+                        Żeglarska w
+                        Osieku</h1>
+                    <div style="clear:both"></div>
+                </div>
+            </div>
+        </a>
+        <a class="d-block d-md-none" href="index.html">
+            <div class=" text-white container-fluid baner">
+                <div class="container justify-content-center text-center">
+                    <h1 class="d-md-none d-inline-flex witaj-sm mt-4 mb-4">
+                        Agroturystyczna Stanica
+                        Żeglarska w
+                        Osieku</h1>
+                </div>
+            </div>
+        </a>
+        <div class="container-fluid bg-white shadow sticky-top">
+            <nav class="navbar navbar-light bg-white navbar-expand-md container">
+                <button class="navbar-toggler btn btn-light" type="button" data-toggle="collapse"
+                    data-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-list-ul" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                    </svg>
+
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarText">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mr-3">
+                            <a class="nav-link " aria-current="page" href="index.html">Aktualności</a>
+                        </li>
+                        <li class="nav-item dropdown mr-3">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#"
+                                aria-expanded="false">Oferty</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="oferta.html">OFERTY</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="oferta.html#pokoje">Pokoje</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#atrakcje">Atrakcje</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#obiady">Domowe obiady</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#obozy">Obozy żeglarskie</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#sprzet">Sprzęt</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#rejsy">Rejsy</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#zimowanie">Zimowanie sprzętu</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mr-3">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Szkolenia</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="szkolenia.html">SZKOLENIA</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="szkolenia.html#zeglarz">Żeglarskie</a></li>
+                                <li><a class="dropdown-item" href="szkolenia.html#motoro">Motorowodne</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mr-3">
+                            <a class="nav-link dropdown-toggle aktive" data-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Obozy</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="obozy.html">OBOZY</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item " href="zapisz.html">Zapisz Dziecko</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link"
+                                href="https://www.facebook.com/Uczniowski-Klub-Sportowy-OPTI-OSIEK-104354480945014"
+                                target="_blanc">Opti Osiek</a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link" href="kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </heder>
+
+    <section>
+        <div class=" container tlo">
+            <div class="pt-5">
+                <span class="naglowek ">
+                    <h1>OBOZY ŻEGLARSKIE</h1>
+                </span>
+            </div>
+            <hr class="pod">
+            <h2 class="accordion-header" id="headingFout">
+                <a href="zapisz.html">
+                    <button class="accordion-button btn btn-white container" type="button">
+                        Zapisz Dziecko na Obóz
+                    </button>
+                </a>
+            </h2>
+            <h2 class="accordion-header" id="headingFout">
+                <a href="pobrania/zgoda-rodzicow.pdf" target="_blanc">
+                    <button class="accordion-button btn btn-white container" type="button">
+                        Zgoda na żeglowanie
+                    </button>
+                </a>
+            </h2>
+            <hr class="pod">
+
+
+            <!--Obozy szkoleniowe-->
+            <div class="artykul">
+                <div class="tytul ml-sm-4">
+                    <h2>Obozy szkoleniowe</h2>
+                </div>
+                <div class="tresc col-12 col-md-10 offset-md-1">
+                    <p>
+                        Uczniowski Klub Sportowy OPTI OSIEK i Agroturystyczna Stanica Żeglarska FIRYN zapraszają na
+                        coroczny obóz szkoleniowy dla młodzieży, przygotowujący do złożenia egzaminu na żeglarza
+                        jachtowego.
+                    </p>
+                    <p>
+                        Od wielu lat, corocznie w Osieku nad jeziorem Kałębie zwanym Morzem Kociewskim, odbywają się
+                        szkolenia żeglarskie w przyjacielskiej rodzinnej atmosferze. Kameralny nastrój, ograniczona
+                        ilość uczestników zapewniają spokój oraz bezproblemową koncentrację potrzebną do wchłaniania
+                        tajemnej wiedzy żeglarskiej. Dzięki temu "Szczury lądowe przekuwamy w wilki morskie".
+                    </p>
+                    <p>
+                        Nasza kadra z wieloletnim doświadczeniem, szkoleniowym i instruktorskim, zapewnia wysoki poziom
+                        nauczania.
+                    </p>
+                    <p>
+                        Instruktorzy szkolą już od kilku a niektórzy nawet kilkudziesięciu lat. Żeglują po wodach
+                        śródlądowych i morskich. Prowadzą zajęcia na jachtach typu Omega, Orion, Venus, Sasanka.
+                        Nauczamy nie tylko manewrowania jachtem pod żaglami lecz również na silniku przyczepnym o mocy 5
+                        lub 8 KM i jego obsługi. Przy czym, podczas szkoleń kładziemy największy nacisk na manewrowanie
+                        na żaglach wg dobrej praktyki żeglarskiej, czyli np. różnych sposobów podejścia do pomostu na
+                        żaglach.
+                    </p>
+
+                    <p>
+                        W trakcie szkoleń teoretycznych posługujemy się materiałami w formie elektronicznej oraz
+                        filmami. Wykłady teoretyczne zawsze są uzupełniane wspomnieniami i odnoszone do realnych
+                        zdarzeń. Również podczas posiłków instruktorzy opowiadają o własnych żeglarskich przygodach z
+                        mórz i oceanów. Mozna porównać, jak się ma praktyka do teori. Można wchłonąć maximum wiedzy
+                        teoretycznej i praktycznej. W czasie wolnym od nauki odbywają się również ogniska i spotkania z
+                        ciekawymi ludźmi. Można u nas spotkać marynarzy floty handlowej i wojennej, sławy żeglarstwa
+                        polskiego i międzynarodowego. Dzielą się oni swoimi przygodami i wspomnieniami.
+                    </p>
+                    <p>
+                        Najnowsze przepisy nie wymagają od żeglarzy umiejętności pływania wpław. Kierownik Wyszkolenia
+                        Żeglarskiego na naszych szkoleniach, wymaga od uczestników minimum umiejętności, czyli
+                        przepłynięcia 100 m jakimkolwiek stylem na brzuchu lub na plecach, nurek i przepłynięcie 5 m pod
+                        wodą. Umiejętność pływania wpław, sprawdzamy podczas testu pływackiego, pierwszego dnia
+                        zgrupowania niezależnie od pogody.
+                    </p>
+                    <p>
+                        Dojazd do Bazy Uczniowskiego Klubu Sportowego OPTI OSIEK we własnym zakresie (mapę znajdziecie w
+                        zakładce <a href="kontakt.html">kontakt</a>). Uczestnik, powinien stawić się najpóźniej do
+                        godziny 09.00 w dniu rozpoczęcia kursu. Istnieje możliwość przyjazdu wieczorem dzień wcześniej,
+                        po wcześniejszym uzgodnieniu.
+                    </p>
+                    <p>
+                        <b>Harmonogram zajęć:</b>
+                    <ul class="ul">
+                        <li>07:30 - pobudka, toaleta poranna,</li>
+
+                        <li>08:00 - rozgrzewka poranna , kąpiel w jeziorze - obowiązkowa,</li>
+
+                        <li>08:45 - śniadanie, komunikaty szkoleniowe,</li>
+
+                        <li>09:30 - zajęcia szkoleniowe praktyczne,</li>
+
+                        <li>13:30 - obiad,</li>
+
+                        <li>14.00 - nauka własna,</li>
+
+                        <li>15:00 - zajęcia szkoleniowe praktyczne,</li>
+
+                        <li>18:30 - kolacja,</li>
+
+                        <li>19:00 - zajęcia teoretyczne,</li>
+
+                        <li>21:00 - nauka własna,</li>
+
+                        <li>22:30 - cisza nocna.</li>
+                    </ul>
+                    Komunikaty, tematyka zajęć oraz zmiany w harmonogramie planowane danego dnia są podawane
+                    dzień wcześniej wieczorem przy kolacji lub rano podczas śniadania.
+                    </p>
+                    <p>
+                        <b>Uczestnik przyjeżdżając na szkolenie powinien posiadać:</b>
+                    <ul class="ul">
+                        <li> Najważniejsza rzecz to chęć do nauki żeglowania.</li>
+
+                        <li> Własny podręcznik "Żeglarz jachtowy i jachtowy sternik morski" ( im nowsze wydanie tym
+                            mniej
+                            zmian , podręcznik rekomendowany przez Polski Związek Żeglarski) autorzy Kolaszewski i
+                            Świdwiński.</li>
+
+                        <li>Odpowiedni ubiór na jacht, na ładną pogodę jak i na niepogodę. Miękkie obuwie nie
+                            smolące
+                            pokładu. Nie mogą to być klapki lecz mogą być sandały, koniecznie z paskiem z tyłu
+                            stopy.
+                            Tzw klapki lubią wpadać do wody, do tego ciągną ich właściciela za sobą ;)</li>
+
+                        <li>Nakrycie głowy chroniące przed nadmiernym nasłonecznieniem oraz deszczem.</li>
+
+                        <li>Zeszyt do zapisywania mądrości żeglarskich</li>
+
+                        <li>No i narzędzie do zapisywania tych mądrości.</li>
+
+                        <li>Niepełnoletni zgodę rodziców lub opiekunów prawnych na udział dziecka w kursie
+                            żeglarskim i
+                            uprawianie żeglarstwa. Rodzice zgodę na udział dziecka w kursie wypełniają na miejscu w
+                            Osieku.</li>
+                        </i>Niepełnoletni legitymację szkolną, studenci legitymację studencką, pełnoletni dowód
+                        osobisty.</li>
+                        <li>Kapcie do używania w miejscu zakwaterownania.</li>
+                        <li> Kosmetyki, kremy z filtrami UV, ręcznik.</li>
+                        <li> Dla niepełnoletnich ubezpieczenie NW obejmujące okres wakacji.</li>
+                        <li>Ubezpieczenie zdrowotne.</li>
+
+                        <li>Należy używać własny laptop, tablet itp.</li>
+
+                        <li>Jeżeli nie chcesz korzystać z używanego sprzętu asekuracyjnego, można mieć własną
+                            kamizelkę
+                            asekuracyjną, dla osób nie umiejących pływać wpław, pas ratunkowy.</li>
+
+                        <li>Obowiązkowo strój kąpielowy. W trakcie szkolenia, obowiązkiem są codzienne poranne
+                            rozgrzewki podnoszące umiejętność pływania wpław.</li>
+
+                        <li>Niepełnoletni, wypełnione zezwolenie rodziców do uprawiania żeglarstwa pobrane ze strony
+                            Polskiego Żwiązku Żeglarskiego. To zezwolenie, obowiązkowo, niepełnoletni uczestnik musi
+                            przedłożyć komisji Egzaminacyjnej.</li><br>
+                    </ul>
+                    <b class="wazne">Nie zabieramy butów z czarną podeszwą! </b>
+                    <br><br>
+                    </p>
+
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+
+
+                        <!-- galeria -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwe">
+                                <button class="accordion-button btn btn-white container" type="button"
+                                    data-toggle="collapse" data-target="#collapseTwe" aria-expanded="false"
+                                    aria-controls="collapseTwe">
+                                    Galeria
+                                </button>
+                            </h2>
+                            <div id="collapseTwe" class="accordion-collapse collapse" aria-labelledby="headingTwe"
+                                data-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row mt-1">
+
+                                        <!-- moeal 28 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal28">
+                                                <img src="img/obozy/obozy1.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal28" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/obozy/obozy1.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow "
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal29">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 29 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal29">
+                                                <img src="img/obozy/obozy2.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal29" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/obozy/obozy2.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal28">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal1">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 1 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal1">
+                                                <img src="img/obozy/obozy4.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal1" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-md">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/obozy/obozy4.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal29">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal30">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 30-->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal30">
+                                                <img src="img/obozy/obozy3.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal30" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-md">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/obozy/obozy3.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow "
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal1">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Półkolonie -->
+            <div class="artykul">
+                <div class="tytul ml-sm-4">
+                    <h2>Półkolonie</h2>
+                </div>
+                <div class="tresc col-12 col-md-10 offset-md-1">
+                    <p>Tak jak w poprzednich latach zapraszamy na półkolonie żeglarskie, skierowane głównie do dzieci
+                        mieszkających w gminie Osiek (lub będących akurat w pobliżu, np. na wakacjach). </p>
+
+                    <p>Zajęcia odbywają się od poniedziałku do piątku i trwają 5h dziennie. Podczas zajęć przewidujemy
+                        przerwę na drugie śniadanie i zupę na koniec zajęć.
+                    </p>
+                    <p>
+                        Uczestnicy mają możliwość żeglowania nie tylko na większych jednostkach (żaglówki typu Omega,
+                        Orion, Venus) ale również na Optymistach- żaglówkach regatowych, jednoosobowych. Są one idealnie
+                        skrojone na potrzeby młodych adeptów żeglarstwa. Nasi uczestnicy uczą się nie tylko żeglowania
+                        ale też dbania o sprzęt- każdy musi się nauczyć jak przygotować swojego Optymista do
+                        wypłynięcia. Poza zajęciami żeglarskimi uczestnicy kolonii mają możliwość pływania na kajakach
+                        oraz SUPach. Organizujemy dla uczestników również wyjścia w teren w celu poznania ciekawostek o
+                        Osieku i jego historii.</p>
+
+                    <p>Nasza kadra z wieloletnim dośwadczeniem, szkoleniowym i instruktorskim, zapewnia wysoki
+                        poziom opieki, kształcenia i wychowania.</p>
+
+                    <p>Zapewniamy miłą, sympatyczną, acz wymagajacą kadrę, jachty żaglowe, sprzęt ratunkowy i
+                        asekuracyjny.</p>
+
+                    <p>Wszystkie zajęcia na wodzie są nadzorowane przez instruktorów i ratowników, zgodnie z bieżącymi
+                        przepisami.
+                    </p>
+
+                    <b>Harmonogram zajęć:</b>
+                    <ul class="ul">
+                        <li>09:00 - zbiórka uczestników, sprawdzenie obecności,</li>
+
+                        <li>09:30 - zajęcia w grupach,</li>
+
+                        <li>11:00 - II śniadanie</li>
+
+                        <li>11:30 - zajęcia w grupach,</li>
+
+                        <li>14.30 - obiad,</li>
+
+                        <li>15:00 - koniec zajęć, rodzice odbierają dzieci</li>
+
+                    </ul>
+                    <p>
+                        <b>Uczestnik przyjeżdżając na półkolonie powinien zabrać ze sobą:</b>
+                    <ul class="ul">
+
+                        <li>Najważniejsza rzecz to chęć do żeglowania i korzystania ze sprzętu wodnego.</li>
+
+                        <li>Odpowiedni ubiór na jacht, na ładną pogodę jak i na niepogodę. Miękkie obuwie nie
+                            smolące
+                            pokładu. Nie mogą to być klapki lecz mogą być sandały, koniecznie z paskiem z tyłu
+                            stopy.
+                            Tzw klapki lubią wpadać do wody, do tego ciągną ich właściciela za sobą ;) . Buty do
+                            pływania. Nakrycie głowy chroniące przed nadmiernym nasłonecznieniem oraz deszczem.</li>
+
+                        <li>Kosmetyki, kremy z filtrami UV, ręcznik.
+                            Można mieć własny pas ratunkowy lub kamizelkę asekuracyjną.</li>
+
+                        <li>Obowiązkowo strój kąpielowy. W trakcie półkolonii w zależności od pogody planujemy
+                            krókie
+                            kąpiele</li>
+
+                        <li>Kompletny ubiór, łącznie z bielizną i obuwiem na przebranie.</li>
+
+
+                        <li>Rodzice wypełniają zgodę na udział dziecka w półkoloniach.</li>
+                        <br><br>
+                    </ul>
+                    </p>
+
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                        <!-- galeria -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThr">
+                                <button class="accordion-button btn btn-white container" type="button"
+                                    data-toggle="collapse" data-target="#collapseThr" aria-expanded="false"
+                                    aria-controls="collapseThr">
+                                    Galeria
+                                </button>
+                            </h2>
+                            <div id="collapseThr" class="accordion-collapse collapse" aria-labelledby="headingThr"
+                                data-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row mt-1">
+
+                                        <!-- moeal 31 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-4 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal31">
+                                                <img src="img/pokolonie/pokolonie1.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal31" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/pokolonie/pokolonie1.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal32">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 32 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-4 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal32">
+                                                <img src="img/pokolonie/pokolonie2.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal32" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/pokolonie/pokolonie2.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal31">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal33">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 33-->
+                                        <div role="zdjecie" class="d-inline-block  col-md-4 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal33">
+                                                <img src="img/pokolonie/pokolonie3.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal33" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/pokolonie/pokolonie3.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center ">
+
+                                                            <button type="button" class="btn btn-arrow"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal32">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kolonie -->
+            <div class="artykul">
+                <div class="tytul ml-sm-4">
+                    <h2>Kolonie</h2>
+                </div>
+                <div class="tresc col-12 col-md-10 offset-md-1">
+                    <p>
+                        Nasza stanica przez kilka ostatnich lat stale rozszerza swoją ofertę- w tym roku zapraszamy
+                        dzieci w wieku od 7 do 14 lat na kolonie żeglarskie. Podczas takiego wypoczynku kładziemy
+                        największy nacisk na to aby oswoić uczestników z wodą i aby pokazać im niesamowite możliwości
+                        jakie dają sporty wodne.
+                    </p>
+                    <p>
+                        Nasza wszechstronnie uzdolniona kadra zapewnia doskonałe wsparcie merytoryczne podczas stawiania
+                        pierwszych kroków w żeglarskim świecie. Uczestnicy mają możliwość żeglowania nie tylko na
+                        większych jednostkach (żaglówki typu Omega, Orion, Venus) ale również na Optymistach- żaglówkach
+                        regatowych, jednoosobowych. Są one idealnie skrojone na potrzeby młodych adeptów żeglarstwa.
+                        Nasi uczestnicy uczą się nie tylko żeglowania ale też dbania o sprzęt- każdy musi się nauczyć
+                        jak przygotować swojego Optymista do wypłynięcia.
+                    </p>
+                    <p>
+                        Poza zajęciami żeglarskimi uczestnicy kolonii mają możliwość pływania na kajakach oraz SUPach.
+                    </p>
+                    <p>
+                        Wszystkie zajęcia na wodzie są nadzorowane przez instruktorów i ratowników, zgodnie z bieżącymi
+                        przepisami.
+                    </p>
+
+                    <b>Uczestnik przyjeżdżając na szkolenie powinien zabrać ze sobą:</b>
+                    <ul class="ul">
+                        <li> Najważniejsza rzecz to chęć do nauki żeglowania.</li>
+
+                        <li>Odpowiedni ubiór na jacht, na ładną pogodę jak i na niepogodę. Miękkie obuwie nie
+                            smolące
+                            pokładu. Nie mogą to być klapki lecz mogą być sandały, koniecznie z paskiem z tyłu
+                            stopy.
+                            Tzw klapki lubią wpadać do wody, do tego ciągną ich właściciela za sobą ;)</li>
+
+                        <li>Nakrycie głowy chroniące przed nadmiernym nasłonecznieniem oraz deszczem.</li>
+
+                        <li>Zeszyt do zapisywania mądrości żeglarskich</li>
+
+                        <li>No i narzędzie do zapisywania tych mądrości.</li>
+
+                        <li>Niepełnoletni zgodę rodziców lub opiekunów prawnych na udział dziecka w kursie
+                            żeglarskim i
+                            uprawianie żeglarstwa. Rodzice zgodę na udział dziecka w kursie wypełniają na miejscu w
+                            Osieku.</li>
+                        </i>Legitymację szkolną></li>
+                        <li>Kapcie do używania w miejscu zakwaterownania.</li>
+                        <li>Kosmetyki, kremy z filtrami UV, ręcznik.</li>
+                        <li>Dla niepełnoletnich ubezpieczenie NW obejmujące okres wakacji.</li>
+                        <li>Ubezpieczenie zdrowotne.</li>
+
+                        <li>Jeżeli nie chcesz korzystać z używanego sprzętu asekuracyjnego, można mieć własną
+                            kamizelkę
+                            asekuracyjną, dla osób nie umiejących pływać wpław, pas ratunkowy.</li>
+
+                        <li>Obowiązkowo strój kąpielowy. W trakcie szkolenia, obowiązkiem są codzienne poranne
+                            rozgrzewki podnoszące umiejętność pływania wpław.</li>
+
+                        <li>Niepełnoletni, wypełnione zezwolenie rodziców do uprawiania żeglarstwa pobrane ze strony
+                            Polskiego Żwiązku Żeglarskiego.</li><br>
+
+                    </ul>
+                    <b class="wazne">Nie zabieramy butów z czarną podeszwą!</b>
+                    <br><br>
+                    </p>
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                        <!-- galeria -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFout">
+                                <button class="accordion-button btn btn-white container" type="button"
+                                    data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    Galeria
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row mt-1">
+
+                                        <!-- moeal 34 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal34">
+                                                <img src="img/kolonie/kolonie1.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal34" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/kolonie/kolonie1.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal35">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 35 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal35">
+                                                <img src="img/kolonie/kolonie4.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal35" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/kolonie/kolonie4.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal34">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal36">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 36-->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal36">
+                                                <img src="img/kolonie/kolonie2.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal36" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-md">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/kolonie/kolonie2.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal35">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal37">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 37 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal37">
+                                                <img src="img/kolonie/kolonie3.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal37" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-md">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/kolonie/kolonie3.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow "
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal36">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <footer>
+        <div class="container-fluid baner">
+            <div class="container baner">
+
+                <span id="kontakt" class="d-md-inline-block d-none kontakt">tel: <b>513 418 709</b>
+
+                    e-mail: afiryn@wp.pl
+
+                </span>
+                <div class="d-inline-block  float-right">
+                    <a href="https://www.facebook.com/Agroturystyczna-Stanica-%C5%BBeglarska-LAJ-Firyn-w-Osieku-265617240212769"
+                        target="_blanc">
+
+                        <img src="ikony/facebook.png" class="icon">
+
+                    </a>
+
+                    <a href="https://www.instagram.com/stanica.firyn/" target="_blanc">
+
+                        <img src="ikony/instagram.png" class="icon">
+
+                    </a>
+
+                    <a href="https://www.facebook.com/Uczniowski-Klub-Sportowy-OPTI-OSIEK-104354480945014"
+                        target="_blanc">
+
+                        <img src="ikony/Opti.png" class="icon">
+
+                    </a>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

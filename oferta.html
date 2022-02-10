@@ -1,0 +1,1791 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-U-Compatible" content="IE=edge">
+    <!-- elementy potrzezbne do bootstrapa -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="glowna/logo.PNG">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&display=swap"
+        rel="stylesheet">
+
+    <title>Oferty</title>
+
+
+</head>
+
+
+<body>
+    <heder>
+        <a class="text-white d-none d-md-block" href="index.html">
+
+            <div class="container-fluid baner">
+                <div class="container">
+                    <img src="glowna/logo.PNG" class="float-left logo mt-3 mb-3">
+                    <h1 class="d-md-inline-flex witaj d-none float-right mt-4 mb-4">Agroturystyczna Stanica
+                        Żeglarska w
+                        Osieku</h1>
+                    <div style="clear:both"></div>
+                </div>
+            </div>
+        </a>
+
+        <a class="d-block d-md-none" href="index.html">
+            <div class=" text-white container-fluid baner">
+                <div class="container justify-content-center text-center">
+                    <h1 class="d-md-none d-inline-flex witaj-sm mt-4 mb-4">
+                        Agroturystyczna Stanica
+                        Żeglarska w
+                        Osieku</h1>
+                </div>
+            </div>
+        </a>
+        <div class="container-fluid bg-white shadow sticky-top">
+            <nav class="navbar navbar-light bg-white navbar-expand-md container">
+                <button class="navbar-toggler btn btn-light" type="button" data-toggle="collapse"
+                    data-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-list-ul" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                    </svg>
+
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarText">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mr-3">
+                            <a class="nav-link" aria-current="page" href="index.html">Aktualności</a>
+                        </li>
+                        <li class="nav-item dropdown mr-3">
+                            <a class="nav-link dropdown-toggle aktive" data-toggle="dropdown" role="button" href="#"
+                                aria-expanded="false">Oferty</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="oferta.html">OFERTY</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="oferta.html#pokoje">Pokoje</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#atrakcje">Atrakcje</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#obiady">Domowe obiady</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#obozy">Obozy żeglarskie</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#sprzet">Sprzęt</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#rejsy">Rejsy</a></li>
+                                <li><a class="dropdown-item" href="oferta.html#zimowanie">Zimowanie sprzętu</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mr-3">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Szkolenia</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="szkolenia.html">SZKOLENIA</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="szkolenia.html#zeglarz">Żeglarskie</a></li>
+                                <li><a class="dropdown-item" href="szkolenia.html#motoro">Motorowodne</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mr-3">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Obozy</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="obozy.html">OBOZY</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item " href="zapisz.html">Zapisz Dziecko</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link"
+                                href="https://www.facebook.com/Uczniowski-Klub-Sportowy-OPTI-OSIEK-104354480945014"
+                                target="_blanc">Opti Osiek</a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link" href="kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </heder>
+
+    <section>
+        <div class="container tlo">
+            <div class="pt-5">
+                <span class="naglowek ">
+                    <h1>OFERTY</h1>
+                    <div id="pokoje"></div>
+                </span>
+            </div>
+            <hr class="pod">
+
+            <!-- Pokoje -->
+            <div class="artykul">
+                <!-- tekst -->
+                <div class="tytul ml-sm-4">
+                    <h2>Pokoje</h2>
+                </div>
+                <div class="tresc d-inline-block col-12 col-sm-10 offset-sm-1 ">
+                    <p>
+                        W naszym rodzinnym domu zapewniamy 12 miejsc noclegowych w 4 pokojach. Do wyłącznej dyspozycji
+                        gości dostępne są:
+                    <ul class="ul">
+                        <li>łazienka, wyposażona w natrysk, wc i umywalkę</li>
+                        <li>aneks kuchenny, wyposażony w lodówkę, zlew i czajnik elektryczny</li>
+                        <li>bardzo szeroki, częściowo zadaszony taras balkonowy z prześlicznym widokiem na jezioro
+                            Kałębie. Nasi goście bardzo często w okresie grzybobrania suszą na nim grzyby i runo leśne,
+                            które to roztacza na resztę domu niebywały zapach.</li>
+                    </ul>
+                    </p>
+                    <p>
+                        Ponadto na wracających z wojaży brudasków czekają letnie łazienki, umiejscowione w podwórku w
+                        pomieszczeniach po dawnej stodole. Niestraszne im błoto pod butami! Idealne miejsce na
+                        przebranie dla cieknących wodą strojów kąpielowych, pianek surferów, mokrych żeglarzy.
+                    </p>
+
+
+                    <br><br>
+
+
+                    <!-- przyciski -->
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button btn btn-white container" type="button"
+                                    data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+                                    aria-controls="collapseOne">
+                                    Cennik
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="accordion-body">
+
+                                    <div class="tresc">
+                                        <br>
+                                        <p>
+                                            Nasz cennik wygląda następująco:
+                                        <ul class="ul">
+                                            <li>nocleg grupy zorganizowane poza sezonem- <b>25 zł/os/dzień</b></li>
+                                            <li>nocleg powyżej 5 dni pobytu- <b>30 zł/os/dzień</b></li>
+                                            <li>nocleg powyżej 3 dni- <b>35 zł/os/dzień</b></li>
+                                            <li>tylko jeden nocleg- <b>40 zł/os/dzień</b></li>
+                                            <li>dzieci od lat 2 do 12 - <b>50% zniżki</b></li>
+                                            <li> dzieci do 2 roku życia <b>bezpłatnie</b>, z możliwością dostawienia
+                                                łóżeczka
+                                                dla dzieci</li>
+                                            <li>ZHP i szkolne biwaki, grupy zorganizowane poza sezonem- <b>do
+                                                    negocjacji</b></li>
+                                        </ul>
+                                        </p>
+                                        <p>
+                                            przypadku obowiązywania uchwały o opłacie miejscowej, od każdej osoby
+                                            pobieramy dodatkowo 1 zł (podatek gminny dla gości dziennie), stali goście
+                                            otrzymują rabaty.
+                                        </p>
+                                        <p>
+                                            <b class=" wazne">
+                                                Poprzez pojęcie sezon rozumiemy: okres szkolnych wakacji letnich, okres
+                                                szkolnych ferii zimowych, dni ustawowo wolne od pracy i nauki szkolnej i
+                                                tzw
+                                                długie weekendy.
+                                            </b>
+                                        </p>
+                                        <p>
+                                            Grupy zorganizowane to wycieczki szkolne, zielone szkoły harcerze na
+                                            biwakach itp.
+                                        </p>
+                                        <br>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button btn btn-white container" type="button"
+                                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Galeria
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row mt-1">
+
+                                        <!-- model 1-->
+                                        <div role="zdjecie" class="d-inline-block col-lg-4 col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal">
+                                                <img src="img/oferta/pokoje/pokoj1.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/pokoje/pokoj1.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow "
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal2">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 2-->
+                                        <div role=" zdjecie" class="d-inline-block col-lg-4 col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal2">
+                                                <img src="img/oferta/pokoje/pokoj2.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal2" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/pokoje/pokoj2.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal3">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 3-->
+                                        <div role="zdjecie" class="d-inline-block col-lg-4 col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal3">
+                                                <img src="img/oferta/pokoje/pokoj3.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal3" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/pokoje/pokoj3.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal2">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal4">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 4-->
+                                        <div role="zdjecie" class="d-inline-block col-lg-4 col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal4">
+                                                <img src="img/oferta/pokoje/pokoj4.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal4" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/pokoje/pokoj4.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal3">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal5">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 5-->
+                                        <div role="zdjecie" class="d-inline-block col-lg-4 col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal5">
+                                                <img src="img/oferta/pokoje/pokoj5.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal5" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/pokoje/pokoj5.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal4">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal6">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 6-->
+                                        <div role="zdjecie" class="d-inline-block col-lg-4 col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal6">
+                                                <img src="img/oferta/pokoje/pokoj6.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal6" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/pokoje/pokoj6.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal5">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal7">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 7 -->
+                                        <div role="zdjecie" class="d-inline-block col-lg-4 col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal7">
+                                                <img src="img/oferta/pokoje/pokoj7.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal7" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/pokoje/pokoj7.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal6">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal8">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 8 -->
+                                        <div role="zdjecie" class="d-inline-block col-lg-4 col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal8">
+                                                <img src="img/oferta/pokoje/pokoj8.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal8" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/pokoje/pokoj8.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal7">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal9">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 9 -->
+                                        <div role="zdjecie" class="d-inline-block col-lg-4 col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal9">
+                                                <img src="img/oferta/pokoje/pokoj9.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal9" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/pokoje/pokoj9.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal8">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal10">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 10 -->
+                                        <div role="zdjecie" class="d-inline-block col-lg-4 col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal10">
+                                                <img src="img/oferta/pokoje/pokoj10.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal10" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/pokoje/pokoj10.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal9">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal11">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 11 -->
+                                        <div role="zdjecie" class="d-inline-block col-lg-4 col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal11">
+                                                <img src="img/oferta/pokoje/pokoj11.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal11" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/pokoje/pokoj11.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal10">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal12">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 12 -->
+                                        <div role="zdjecie" class="d-inline-block col-lg-4 col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal12">
+                                                <img src="img/oferta/pokoje/pokoj12.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal12" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/pokoje/pokoj12.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow "
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal11">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="atrakcje"></div>
+
+                </div>
+            </div>
+
+            <!-- Atrakcje -->
+            <div class="artykul">
+                <!-- tekst -->
+                <div class="tytul ml-sm-4">
+                    <h2>Atrakcje</h2>
+                </div>
+                <div class="tresc d-inline-block col-12 col-sm-10 offset-sm-1">
+                    <p>
+                        Osiek to malownicza wieś, położona na Kociewiu, nad jeziorem Kałębie, blisko dziewiczych lasów i
+                        bagien. Jest świetnym miejscem na wypoczynek z rodziną lub znajomymi. W naszej agroturystyce
+                        znajdziecie nie tylko nocleg i pyszne, domowe jedzonko, ale również możliwość skorzystania ze
+                        sprzętu wodnego oraz wiedzy i umiejętności profesjonalnych instruktorów. Poza noclegami i
+                        wyżywieniem oferujemy lekcje żeglarstwa i motorowodniactwa dla dużych i małych, można też u nas
+                        wypożyczyć kajaki i łódkę wiosłową. Jeśli jednak woda to nie do końca Twój żywioł- nie szkodzi!
+                        Opowiemy Ci o naszym regionie i wskażemy najpiękniejsze leśne trasy piesze i rowerowe w
+                        pobliskich lasach. Jeśli jesteś ciekawy/a co jeszcze mamy w zanadrzu zapoznaj się z naszą
+                        ofertą.
+                    </p>
+                    <a href="atrakcje.html" class="a-tresc"><b>CZYTAJ DALEJ...</b></a>
+                    <br><br>
+
+                    <!-- przyciski -->
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTree">
+                                <button class="accordion-button btn btn-white container" type="button"
+                                    data-toggle="collapse" data-target="#collapseTree" aria-expanded="false"
+                                    aria-controls="collapseTree">
+                                    Galeria
+                                </button>
+                            </h2>
+                            <div id="collapseTree" class="accordion-collapse collapse" aria-labelledby="headingTree"
+                                data-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row mt-1">
+
+                                        <!-- moeal 13 -->
+                                        <div role="zdjecie" class="d-inline-block col-lg-4 col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal13">
+                                                <img src="img/oferta/atrakcje/atrakcje1.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal13" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/atrakcje/atrakcje1.jpg" class="w-100">
+                                                        </div>
+
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal14">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 14 -->
+                                        <div role="zdjecie" class="d-inline-block col-lg-4 col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal14">
+                                                <img src="img/oferta/atrakcje/atrakcje2.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal14" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/atrakcje/atrakcje2.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal13">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal15">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 15 -->
+                                        <div role="zdjecie" class="d-inline-block col-lg-4 col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal15">
+                                                <img src="img/oferta/atrakcje/atrakcje3.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal15" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/atrakcje/atrakcje3.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal14">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="obiady"></div>
+
+                </div>
+            </div>
+
+            <!-- Obiady -->
+            <div class="artykul">
+                <!-- tekst -->
+                <div class="tytul ml-sm-4">
+                    <h2>Domowe Obiady</h2>
+                </div>
+                <div class="tresc d-inline-block col-12 col-sm-10 offset-sm-1">
+                    <p>
+                        Wszystkim gościom zapewniamy całodzienne domowe wyżywienie. Serwujemy tradycyjne polskie i
+                        regionalne potrawy. Złowione i sprawione ryby smażymy naszym gościom jako dodatek do kolacji.
+                        Przyjmujemy również grupy zorganizowane.
+                    </p>
+                    <p>
+                        W menu proponujemy wędliny domowe, wędzonki domowe oraz nabiał domowy: twarogi, sery smażone,
+                        śmietana w której łyżka stoi, świeże mleko od krowy, zsiadłe mleko, masło swojskie, maślanka. Na
+                        życzenie wykonujemy jogurty tradycyjne i smakowe z owocami z własnego ogrodu.
+                    </p>
+                    <p>
+                        Większość warzyw i owoców w menu pochodzi z naszych upraw. Na naszych stołach często gości
+                        dziczyzna pozyskiwana z tutejszych lasów od zaprzyjaźnionych myśliwych.
+                    </p>
+                    <br><br>
+
+                    <!-- przyciski -->
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button btn btn-white container" type="button"
+                                    data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    Cennik
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-parent="#accordionExample">
+                                <div class="accordion-body">
+
+                                    <div class="tresc">
+                                        <p>
+                                            Oferujemy posiłki przygotowane przez gospodynię lub razem z
+                                            nią:
+                                        <ul class="ul">
+                                            <li>wyżywienie całodzienne (śniadanie, obiad, kolacja) - <b>36
+                                                    zł/os </b></li>
+                                            <li>śniadania <b> - 11 zł/os</b></li>
+                                            <li> obiad <b> - 18 zł/os</b></li>
+                                            <li> kolacja <b> - 11 zł/os</b></li>
+                                            <li> obiado-kolacja<b> - 20 zł/os</b></li>
+                                            <li> dzieci będące razem z rodzicami:
+                                                <ul class="ul">
+                                                    <li> w wieku do 2 lat - <b>bezpłatnie</b></li>
+                                                    <li> w wieku od 2 do 12 lat - <b>50% zniżki</b></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <p>
+                                            <b>Aneksy kuchenne</b> nie są przystosowane do samodzielnego
+                                            przygotowywania
+                                            posilków.
+                                            Wyżywienie
+                                            przygotowuje gospodyni.
+                                        </p>
+                                        <p>
+                                            Jeżeli jesteście wędkarzami, to złowione i sprawione przez Was
+                                            ryby smażymy i
+                                            podajemy do
+                                            kolacji.
+                                        </p>
+                                        <p>
+                                            Dla uczestników kursów - na życzenie - na jachtach kawa i
+                                            herbata z termosu
+                                            <b>gratis</b>. W
+                                            trakcie trwania zajęć teoretycznych, kawa, herbata i przegryzki
+                                            również gratis
+                                        </p>
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="obozy"></div>
+
+                </div>
+            </div>
+
+            <!-- Obozy Zeglarskie -->
+            <div class="artykul">
+                <!-- tekst -->
+                <div class="tytul ml-sm-4">
+                    <h2>Obozy Żeglarskie</h2>
+                </div>
+                <div class="tresc d-inline-block col-12 col-sm-10 offset-sm-1">
+
+                    <p>
+                        Uczniowski Klub Sportowy OPTI OSIEK i Agroturystyczna Stanica Żeglarska FIRYN zapraszają na
+                        coroczny obóz szkoleniowy dla młodzieży, przygotowujący do złożenia egzaminu na żeglarza
+                        jachtowego.
+                    </p>
+                    <p>
+                        Od wielu lat, corocznie w Osieku nad jeziorem Kałębie zwanym Morzem Kociewskim, odbywają się
+                        szkolenia żeglarskie w przyjacielskiej rodzinnej atmosferze. Kameralny nastrój, ograniczona
+                        ilość uczestników zapewniają spokój oraz bezproblemową koncentrację potrzebną do wchłaniania
+                        tajemnej wiedzy żeglarskiej. Dzięki temu "Szczury lądowe przekuwamy w wilki morskie".
+                        <br><br>
+                        <a href="obozy.html" class="a-tresc"><b>CZYTAJ DALEJ...</b></a>
+                    </p>
+                    <br><br>
+
+                    <!-- przyciski -->
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button btn btn-white container" type="button"
+                                    data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
+                                    aria-controls="collapseSix">
+                                    Galeria
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row mt-1">
+
+                                        <!-- moeal 16 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal16">
+                                                <img src="img/obozy/obozy1.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal16" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/obozy/obozy1.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal17">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 17 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal17">
+                                                <img src="img/obozy/obozy2.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal17" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/obozy/obozy2.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal16">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal28">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 28 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal28">
+                                                <img src="img/obozy/obozy6.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal28" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/obozy/obozy6.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal17">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal18">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 18 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal18">
+                                                <img src="img/obozy/obozy5.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal18" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/obozy/obozy5.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal28">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="sprzet"></div>
+
+                </div>
+            </div>
+
+            <!-- Użyczamy sprzęt wodny -->
+            <div class="artykul">
+                <!-- tekst -->
+                <div class="tytul ml-sm-4">
+                    <h2>Użyczamy sprzęt wodny</h2>
+                </div>
+                <div class="tresc d-inline-block col-12 col-sm-10 offset-sm-1">
+                    <p>
+                        Naszym gościom użyczamy następujący sprzęt:
+
+                        kajaków (4 szt),
+                        łodzi wiosłowych (1 szt),
+                        jachty żaglowe (3 szt),
+                        rowerów lądowych (7 szt).
+                        windsurfingi (2 szt)
+                        supy (deska z wiosłem) 6 szt
+                    </p>
+
+                    <p>
+                        <b>
+                            Jachty omega, orion, venus: <span class="wazne">można wypożyczać tylko ze
+                                sternikiem-skipperem.</span>
+
+                            Telefony do uprawnionych skipperów:
+                            <ul class="ul">
+                                <li>HANKA 500 317 986</li>
+                                <li>KACPER 884 881 876</li>
+                            </ul>
+                        </b>
+                    </p>
+
+                    <p>
+                        Miłośnikom żeglarskich wyzwań polecamy jachcik typu FINN. Narowista regatowa
+                        żaglówka.
+                        Aby
+                        ją dosiąść potrzeba prawdziwych umiejętności żeglarskich. Na takiej żeglował
+                        mistrz
+                        Mateusz
+                        Kuśnierewicz.
+                    </p>
+
+                    <p>
+                        Rowery górskie, spacerowe przeznaczone są dla naszych gości. W szczególności
+                        zachęcamy
+                        do
+                        podróży rowerowych po okolicy. A jest co zwiedzać, <a href="atrakcje.html">sprawdź tutaj</a>.
+                    </p>
+                    <br><br>
+
+                    <!-- przyciski -->
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button btn btn-white container" type="button"
+                                    data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false"
+                                    aria-controls="collapseSeven">
+                                    Cennik
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                data-parent="#accordionExample">
+                                <div class="accordion-body">
+
+                                    <div class="tresc">
+                                        <p>
+                                            <b>Dla gości nocujących w naszym domu kajaki użyczamy bezpłątnie. Dla
+                                                innych chętnych:</b>
+
+                                        <ul class="ul">
+                                            <li>Kajaki i łódź wiosłowa (o ile nie są wykorzystywane do
+                                                zajęć
+                                                szkoleniowo-wychowawczych
+                                                )15
+                                                zł/h</li>
+                                            <li>Deska SUP 100 zł/dzień, kaucja 100 zł</li>
+
+                                            <li>Jachty omega i ostróda 5-osobowe 200 zł na dzień 50
+                                                zł/godzinę</li>
+                                            <li>Jacht wenus 5 osobowy 200 zł/dzień, 60 zł/godzinę</li>
+                                            <li> Jacht orion 4 osobowy 150 zł/dzień, 55 zł/godzinę</li>
+                                        </ul>
+                                        <center><b class="wazne">Wypożyczenie sprzętu wodnego jest
+                                                płatne z góry!</b>
+                                        </center><br>
+
+                                        <center>
+                                            <b>Sprzęt można wykorzystywać w miesiącach od maja do
+                                                września w godz. 10:00
+                                                do
+                                                18:00</b>
+                                        </center>
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingEight">
+                                <button class="accordion-button btn btn-white container" type="button"
+                                    data-toggle="collapse" data-target="#collapseEight" aria-expanded="false"
+                                    aria-controls="collapseEight">
+                                    Galeria
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                data-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row mt-1">
+
+                                        <!-- moeal 19 -->
+                                        <div role="zdjecie" class="d-inline-block col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal19">
+                                                <img src="img/oferta/sprzet/kajaki.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal19" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/sprzet/kajaki.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+                                                            <button type="button" class="btn btn-arrow"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal20">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 20 -->
+                                        <div role="zdjecie" class="d-inline-block col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal20">
+                                                <img src="img/oferta/sprzet/rowery.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal20" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/sprzet/rowery.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow "
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal19">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="rejsy"></div>
+
+                </div>
+            </div>
+
+            <!-- Rejsy -->
+            <div class="artykul">
+                <!-- tekst -->
+                <div class="tytul ml-sm-4">
+                    <h2>Żeglarskie Rejsy Morskie</h2>
+                </div>
+                <div class="tresc d-inline-block col-12 col-sm-10 offset-sm-1">
+                    <p>
+                        Naszych gości i kursantów w ramach dodatkowych atrakcji zapraszamy na prowadzone przez kapitana
+                        Jendrusia rejsy po Morzu Bałtyckim. Kociewskie rejsy po morzach cieszą się popularnością.
+                        Rokrocznie odbywa się tylko jeden taki rejs. Były już: Kociewski rejs na wschód Bałtyku,
+                        Kociewski rejs z kulturą za pan brat, Kociewski rejs na północ Baltyku, Kociewski rejs na środek
+                        Bałtyku, oraz rejsy harcerskie. Nabór załogi odbywa się w okresie luty /marzec.
+                    </p>
+                    <p>
+                        Chcesz samemu zorganizować rejs po Bałtyku i potrzebujesz kapitana? Przyjedź do Osieka. Jendrek
+                        nauczy Cię jak od podstaw zorganizować Twój wymarzony rejs!
+
+                    </p>
+                    <br><br>
+
+                    <!-- przyciski -->
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTen">
+                                <button class="accordion-button btn btn-white container" type="button"
+                                    data-toggle="collapse" data-target="#collapseTen" aria-expanded="false"
+                                    aria-controls="collapseTen">
+                                    Galeria
+                                </button>
+                            </h2>
+                            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                                data-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row mt-1">
+
+                                        <!-- moeal 22 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal22">
+                                                <img src="img/oferta/rejsy/rejsy1.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal22" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/rejsy/rejsy1.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal23">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 23 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal23">
+                                                <img src="img/oferta/rejsy/rejsy2.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal23" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/rejsy/rejsy2.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal22">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal24">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 24 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal24">
+                                                <img src="img/oferta/rejsy/rejsy3.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal24" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/rejsy/rejsy3.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow mr-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal23">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+
+                                                            <button type="button" class="btn btn-arrow ml-3"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal25">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 25 -->
+                                        <div role="zdjecie" class="d-inline-block col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal25">
+                                                <img src="img/oferta/rejsy/rejsy4.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal25" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/rejsy/rejsy4.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal24">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="zimowanie"></div>
+            </div>
+
+            <!-- Zimowanie -->
+            <div class="artykul">
+                <!-- tekst -->
+                <div class="tytul ml-sm-4">
+                    <h2>Zimowanie sprzętu i remonty</h2>
+                </div>
+                <div class="tresc d-inline-block col-12 col-sm-10 offset-sm-1">
+                    <p>
+                        Na naszych gruntach przy domu jesienią można przechowywać żaglówki, jachty.
+                        Sprzęt jest pod
+                        ciągłym nadzorem. Z okien domu widać miejsca postojowe jachtów i sprzętu
+                        wodnego. Jeśli
+                        sprzęt potrzebuje naprawy, doradzam, szkolę jak naprawiać, udostępniam materiały
+                        szkutniczo
+                        laminiarskie. W razie awari zawsze mam materiał na szybką naprawę. Pomagamy w
+                        remontch
+                        począwszy od kajaków, na żaglówkach kończąc.
+                    </p>
+                    <br><br>
+
+                    <!-- przyciski -->
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingEle">
+                                <button class="accordion-button btn btn-white container" type="button"
+                                    data-toggle="collapse" data-target="#collapseEle" aria-expanded="false"
+                                    aria-controls="collapseEle">
+                                    Galeria
+                                </button>
+                            </h2>
+                            <div id="collapseEle" class="accordion-collapse collapse" aria-labelledby="headingEle"
+                                data-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row mt-1">
+
+                                        <!-- moeal 26 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal26">
+                                                <img src="img/oferta/zimowanie/zimo1.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal26" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/zimowanie/zimo1.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal27">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- modal 27 -->
+                                        <div role="zdjecie" class="d-inline-block  col-md-6 mt-4">
+                                            <button type="button" class="btn btn-galery" data-toggle="modal"
+                                                data-target="#exampleModal27">
+                                                <img src="img/oferta/zimowanie/zimo2.jpg" class="podglad foto">
+                                            </button>
+
+                                            <!-- okienko -->
+                                            <div class="modal fade" id="exampleModal27" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                    <div class="modal-content">
+
+                                                        <div class="modal-body">
+                                                            <img src="img/oferta/zimowanie/zimo2.jpg" class="w-100">
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center">
+
+                                                            <button type="button" class="btn btn-arrow"
+                                                                data-toggle="modal" data-dismiss="modal"
+                                                                data-target="#exampleModal26">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="40"
+                                                                    height="30" fill="currentColor"
+                                                                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                                                </svg>
+                                                            </button>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid baner">
+            <div class="container baner">
+
+                <span id="kontakt" class="d-md-inline-block d-none kontakt">tel: <b>513 418 709</b>
+
+                    &nbsp e-mail: afiryn@wp.pl
+
+                </span>
+                <div class="d-inline-block  float-right">
+                    <a href="https://www.facebook.com/Agroturystyczna-Stanica-%C5%BBeglarska-LAJ-Firyn-w-Osieku-265617240212769"
+                        target="_blanc">
+
+                        <img src="ikony/facebook.png" class="icon">
+
+                    </a>
+
+                    <a href="https://www.instagram.com/stanica.firyn/" target="_blanc">
+
+                        <img src="ikony/instagram.png" class="icon">
+
+                    </a>
+
+                    <a href="https://www.facebook.com/Uczniowski-Klub-Sportowy-OPTI-OSIEK-104354480945014"
+                        target="_blanc">
+
+                        <img src="ikony/Opti.png" class="icon">
+
+                    </a>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
